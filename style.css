@@ -98,7 +98,8 @@ p {
     color: rgb(240, 10, 10);
     font-weight: 700;
     line-height: 30px;
-    font-size: 80px;
+    font-size: 30px;
+    white-space:nowrap;
 }
 
 #results-history {
