@@ -32,7 +32,7 @@ function atualizarHistorico() {
 const historicoUl = document.getElementById("historico");
 historicoUl.innerHTML = ""; // Limpa o histórico atual
 
-historico.forEach(numero => {
+historico.slice().reverse().forEach(numero => {
     const li = document.createElement("li");
     li.textContent = numero;
     historicoUl.appendChild(li);
