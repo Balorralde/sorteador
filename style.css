@@ -91,7 +91,7 @@ p {
     align-items: center;
     font-size: 60px;
     color: yellow;
-    white-space: nowrap;
+   
 }
 
 .error-message {
@@ -131,6 +131,10 @@ p {
     .error-message {
         width: 95%;
         font-size: 40px;
+    }
+
+    h1 {
+        white-space: nowrap;
     }
 
    
