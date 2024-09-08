@@ -132,6 +132,7 @@ p {
     .error-message {
         width: 95%;
         font-size: 40px;
+        white-space: unset;
     }
 
     h1 {
