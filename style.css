@@ -101,6 +101,19 @@ p {
     font-size: 80px;
 }
 
+#historico {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#historico li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 @media (max-width: 600px) {
 
     .Logo-dado,
